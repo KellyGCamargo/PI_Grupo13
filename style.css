@@ -12,7 +12,7 @@ header {
     font-size: 20px;
     width: 1350px;
     height: 30px;
-    
+    margin-bottom: 40px;
 }
 
 .main section{
@@ -36,21 +36,21 @@ main {
 
 .principal ul li{
     display:inline-block;
-    padding-right: 40px;
-    padding-left:20px;
+    padding-right: 50px;
+    padding-left: 40px;
 }
 
 .carrinho {
     display:flex;
-    padding-left: 450px;
+    padding-left: 370px;
     width: 30px;
     height: 30px;
     
 }
 .container {
     display: inline;
-    width: 70%;
-    height: 70%;
+    width: 1350px;
+    height: 300px;
 }
 
 footer {
@@ -61,10 +61,35 @@ footer {
 
 .rodape {
     display: flex;
+    
+    width:1350px;
+    height: 150px;
+}
+
+.local {
     justify-content: center;
-    width:20%;
-    height: 20%;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.geral {
+    margin-top: 10px;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.geral ul li {
+    margin: 10px;
 }
 
 
+.midias {
+    flex-grow: 1;
+    justify-content: center;
+}
 
+.midias section img {
+    margin: 15px;
+    margin-left: 30px;
+}
