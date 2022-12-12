@@ -1,7 +1,7 @@
 /*				FONT-FAMILY*/
 
 @font-face {
-    font-family: gnuolanerg;
+    font-family: Gnuolane;
     src: url('fonts/gnuolanerg-webfont.eot');
     src: url('fonts/gnuolanerg-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/gnuolanerg-webfont.woff') format('woff'),
@@ -99,7 +99,7 @@ header {
 .header-container #logo {
 
 	top: 25px;
-	left: 50%;
+	left: 5%;
 	margin-left: -50px;
 	margin-bottom: 0;
 
@@ -107,7 +107,7 @@ header {
 
 .header-container h1, .header-container h2 {
 
-	left: 50%;
+	left: 45%;
 	margin-left: -50px;
 
 }
