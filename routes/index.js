@@ -21,4 +21,6 @@ router.get('/carroFacil', pageStaticController.easyCar);
 router.get('/acidentesPessoaisColetivo', pageStaticController.vidaColetivo);
 router.get('/vidaColetivo', pageStaticController.acidentesPessoaisColetivo);
 router.get('/saudeOdonto', pageStaticController.saudeOdonto);
+
+router.get('/contato', pageStaticController.contato);
 module.exports = router;
