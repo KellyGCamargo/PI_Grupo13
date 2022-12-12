@@ -1,9 +1,7 @@
-/*--------------------------------------
-				FONT-FAMILY
----------------------------------------*/
+/*				FONT-FAMILY*/
 
 @font-face {
-    font-family: Gnuolane;
+    font-family: gnuolanerg;
     src: url('fonts/gnuolanerg-webfont.eot');
     src: url('fonts/gnuolanerg-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/gnuolanerg-webfont.woff') format('woff'),
@@ -13,9 +11,7 @@
     font-style: normal;
 }
 
-/*--------------------------------------
-			 BODY - GLOBAL
----------------------------------------*/
+/*			 BODY - GLOBAL*/
 
 * {
 
@@ -73,9 +69,7 @@ a {
 
 
 
-/*--------------------------------------
-			 HEADER - NAV
----------------------------------------*/
+/*			 HEADER - NAV*/
 
 
 header {
@@ -142,9 +136,7 @@ header {
 	margin-left: -50px;
 }
 
-/*--------------------------------------
-			  MENU - NAV
----------------------------------------*/
+/*			  MENU - NAV*/
 
 .menu {
 
@@ -189,9 +181,7 @@ header {
 
 }
 
-/*--------------------------------------
-		   	MENU - NAV - DROPDOWN
----------------------------------------*/
+/*		   	MENU - NAV - DROPDOWN*/
 
 .menu li ul{
 
@@ -268,9 +258,7 @@ header {
 }
 
 
-/*--------------------------------------
-		   		SLIDER
----------------------------------------*/
+/*		   		SLIDER*/
 
 .slider {
 
@@ -278,9 +266,7 @@ header {
 	z-index: 9000;
 }
 
-/*--------------------------------------
-		SECTION - PRIMEIRA
----------------------------------------*/
+/*		SECTION - PRIMEIRA*/
 
 .section-um {
 
@@ -352,9 +338,7 @@ header {
 
 }
 
-/*--------------------------------------
-		SECTION - SEGUNDA
----------------------------------------*/
+/*		SECTION - SEGUNDA*/
 
 .section-dois {
 
@@ -450,9 +434,7 @@ header {
 	background: url('../img/contato.png') 5px 0px no-repeat;
 }
 
-/*--------------------------------------
-				FOOTER
----------------------------------------*/
+/*				FOOTER*/
 
 footer {
 
@@ -482,9 +464,7 @@ footer {
 	float: right;
 }
 
-/*---------------------------------
-			KLM.HTML
----------------------------------*/
+/*			KLM.HTML*/
 
 #container-klm {
 
@@ -540,9 +520,7 @@ footer {
 	text-indent: 0;
 }
 
-/*---------------------------------
-		SEGURADORAS.HTML
----------------------------------*/
+/*		SEGURADORAS.HTML*/
 
 #container-seguradora {
 
