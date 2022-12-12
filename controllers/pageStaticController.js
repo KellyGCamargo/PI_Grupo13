@@ -40,6 +40,9 @@ const pageStaticController = {
     },
     saudeOdonto: (req, res) => {
         return res.render('PessoaJuridica/saudeOdonto');
+    },
+    contato: (req, res) => {
+        return res.render('PessoaFisica/contato');
     }
 
 
