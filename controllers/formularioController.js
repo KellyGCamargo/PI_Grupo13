@@ -29,13 +29,13 @@ const formularioController = {
                 console.log(req.files)
                 const obj = JSON.parse(JSON.stringify(req.body));
 
-                //let transporter = nodemailer.createTransport({
-                    //host: "smtp.umbler.com",
-                    //port: 587,
-                    //secure: false,
-                    //auth: {
-                        //user: "atendimento@klmcorretoradeseguros.com.br",
-                        //pass: "Klm*2894"
+                let transporter = nodemailer.createTransport({
+                    host: "smtp.umbler.com",
+                    port: 587,
+                    secure: false,
+                    auth: {
+                        user: "atendimento@klmcorretoradeseguros.com.br",
+                        pass: "Klm*2894"
                     }
 
                 });
